@@ -62,5 +62,10 @@ The final output demonstrates the geographic distribution of attacks, with coord
 
 <img src="SOC_Cloud_IMG6.png" width="800"> <img src="SOC_Cloud_IMG7.png" width="800">
 
-🏁 Conclusion
-As a 32-year-old student at Chaffey College, this "trial by fire" session solidified my understanding of the Log Pipeline, from raw Windows Events to cloud-based SIEM visualizations. This project proves my ability to not only deploy security tools but to debug the underlying architecture when automated systems fail.
+--- 
+
+### 🛡️ Lessons Learned
+
+* **Accuracy Over Optics**: In a SIEM, raw data is useless without proper parsing. I learned that a bar chart of coordinates is just "noise" until you utilize **KQL `project` and `render` commands** to translate that raw text into a visual map of global attack vectors.
+* **Engineering Through IAM & Ingestion**: Navigating the "Double-Extension" bug (`.log.log`) and local Windows directory permissions was the technical "unlock" for this lab. I learned that achieving a **100% Agent Heartbeat success rate** often requires manual OS-level intervention, proving that security is as much about system administration as it is about monitoring.
+* **The "Honeypot" Reality**: Within minutes of opening the Network Security Group to `DANGER_ALLOW_ANY_INBOUND`, the VM was hit by multiple global botnets. This emphasized the sheer speed of automated scanning and the critical need for a **Log Analytics Workspace** to aggregate and alert on these events in real-time.
