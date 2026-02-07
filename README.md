@@ -62,6 +62,7 @@ The final output demonstrates the geographic distribution of attacks, with coord
 
 <img src="SOC_Cloud_IMG6.png" width="800"> 
 <img src="SOC_Cloud_IMG7.png" width="800">
+
 --- 
 
 ### 🛡️ Lessons Learned
