@@ -57,11 +57,11 @@ FAILED_RDP_WITH_GEO_CL_CL
 ```
 ---
 
-Geospatial Mapping
+### 📊 Geospatial Mapping
 The final output demonstrates the geographic distribution of attacks, with coordinates successfully plotted on a geospatial grid.
 
-<img src="SOC_Cloud_IMG6.png" width="800"> <img src="SOC_Cloud_IMG7.png" width="800">
-
+<img src="SOC_Cloud_IMG6.png" width="800"> 
+<img src="SOC_Cloud_IMG7.png" width="800">
 --- 
 
 ### 🛡️ Lessons Learned
